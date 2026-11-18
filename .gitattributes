@@ -1,0 +1,2 @@
+prebuilt/boot.img filter=lfs diff=lfs merge=lfs -text
+prebuilt/vendor.img filter=lfs diff=lfs merge=lfs -text

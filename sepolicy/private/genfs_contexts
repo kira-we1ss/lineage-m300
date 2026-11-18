@@ -1,0 +1,2 @@
+genfscon sysfs /devices/platform/soc/4c84000.i2c/i2c-3/3-0062/power_supply/cw2015 u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/4c84000.i2c/i2c-3/3-004b/power_supply/mp2731-charger u:object_r:sysfs_batteryinfo:s0
