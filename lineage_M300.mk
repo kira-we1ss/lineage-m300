@@ -8,7 +8,12 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/lineage/config/common_full.mk)
+$(call inherit-product, vendor/lineage/config/wifionly.mk)
+
+PRODUCT_PACKAGES += LatinIME
+PRODUCT_PACKAGE_OVERLAYS += vendor/lineage/overlay/dictionaries
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lineage/overlay/dictionaries
 
 TARGET_BOOT_ANIMATION_RES := 640
 
