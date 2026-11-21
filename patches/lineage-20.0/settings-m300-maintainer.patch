@@ -1,0 +1,34 @@
+diff --git a/res/values/strings.xml b/res/values/strings.xml
+index 6ebda18d579..2ec91c54d4b 100644
+--- a/res/values/strings.xml
++++ b/res/values/strings.xml
+@@ -3584,6 +3584,8 @@
+ 
+     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+     <string name="firmware_version">Android version</string>
++    <string name="m300_maintainer_title">Maintainer</string>
++    <string name="m300_maintainer_name">Kira Weiss</string>
+     <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
+     <string name="security_patch">Android security update</string>
+     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+diff --git a/res/xml/my_device_info.xml b/res/xml/my_device_info.xml
+index 7eeffee2095..0b59e723639 100644
+--- a/res/xml/my_device_info.xml
++++ b/res/xml/my_device_info.xml
+@@ -140,6 +140,16 @@
+             android:summary="@string/summary_placeholder"
+             settings:enableCopying="true"
+             settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
++
++        <Preference
++            android:key="m300_maintainer"
++            android:order="44"
++            android:title="@string/m300_maintainer_title"
++            android:summary="@string/m300_maintainer_name">
++            <intent
++                android:action="android.intent.action.VIEW"
++                android:data="https://github.com/kira-we1ss"/>
++        </Preference>
+     </PreferenceCategory>
+ 
+     <PreferenceCategory
