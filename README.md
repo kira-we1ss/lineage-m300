@@ -6,7 +6,8 @@ Making this port because I didn't like the stock, and in my opinion a player(esp
 I use Navidrome and local music, so I don't need streaming services.
 
 Even with that - you always can flash the released build onto the device along with GApps or install microG if you didn't like the stock but still need GApps.
-(No release yet, but it will be soon! Rn only LOS 20, I will try to port latest 24 too.)
+
+**LOS 20 IS OUT!!!! CHECK OUT THE RELEASES PAGE.**
 
 This port combines the stock HiBy 1.62 boot, DTBO and vendor images with LineageOS system, system_ext and product images.
 Google apps and services are not included. The original TWRP-oriented tree is available from `reindex-ot/hiby_digital_m300`.
@@ -132,6 +133,5 @@ OTA updates are disabled because no update server is provided. Install newer bui
 
 - Bluetooth audio and codec negotiation, including LDAC
 - DSD and bit-perfect playback with the official HiBy profiles
-- A `user` build signed with release keys
 
 This is a development port, not a stable release. Keep the stock images and a working recovery path available when testing.
