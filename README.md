@@ -133,5 +133,3 @@ OTA updates are disabled because no update server is provided. Install newer bui
 
 - Bluetooth audio and codec negotiation, including LDAC
 - DSD and bit-perfect playback with the official HiBy profiles
-
-This is a development port, not a stable release. Keep the stock images and a working recovery path available when testing.
